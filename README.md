@@ -4,7 +4,7 @@ YouTube video downloader written in python utilizing the [PyTube](https://pytube
 
 ## Compiling the project to make an executable file
 
-One can compile the python file using PyInstaller, which can be installed using pip3 with the command `pip3 install pyinstaller`.
+One can compile the python file using [PyInstaller](https://pyinstaller.org/en/stable/), which can be installed using pip3 with the command `pip3 install pyinstaller`.
 
 This might be desirable if you wish to run the code many times as this will decrease run time, and also simplify the command to download the videos, at least a little bit :-).
 
