@@ -1,6 +1,6 @@
 # YouTube video downloader for the terminal
 
-YouTube video downloader written in python utilizing the PyTube library [https://pytube.io/en/latest/] as well as the argparse module [https://docs.python.org/3/library/argparse.html] for adding flags (currently only a help flag and an output path flag). It can be easily extended to fit your own needs.
+YouTube video downloader written in python utilizing the [PyTube](https://pytube.io/en/latest/) library as well as the [argparse](https://docs.python.org/3/library/argparse.html) module for adding flags (currently only a help flag and an output path flag). It can be easily extended to fit your own needs.
 
 ## Compiling the project to make an executable file
 
