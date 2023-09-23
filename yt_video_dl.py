@@ -1,7 +1,7 @@
+# Somehow only workd for python and not python3, one could also just use pytube <url> but this is more fun
+
 from pytube import YouTube as yt
 import argparse as ap
-
-
 
 def download(url, outPath):
   ytLink = yt(url)
@@ -14,10 +14,15 @@ def main():
   parser.add_argument('--output', '-o', help='Output path for the video file.')
   args = parser.parse_args()
   outPath = args.output or '.'
-  download = (args.url, outPath)
+  download(args.url, outPath)
 
 if __name__ == '__main__':
   main()
+
+
+
+
+
 
 
 
