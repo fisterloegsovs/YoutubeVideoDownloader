@@ -14,7 +14,7 @@ def main():
   parser.add_argument('--output', '-o', help='Output path for the video file.')
   args = parser.parse_args()
   outPath = args.output or '.'
-  downloadVideo = (args.url, outPath)
+  download = (args.url, outPath)
 
 if __name__ == '__main__':
   main()
