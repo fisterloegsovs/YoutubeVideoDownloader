@@ -10,4 +10,4 @@ This might be desirable if you wish to run the code many times as this will decr
 
 ## How to use?
 
-You run it with `python3 yt_video_dl.py <YouTube video url> -o /path/to/output` or if you prefer compiling the file using PyInstaller, you can then compile the file like this `pyinstaller yt_video_dl.py -F` the -F flag means that it creates a single executable file in the `dist` directory. You then run the compiled file like this `./yt_video_dl <YouTube video url> -o /path/to/output`
+You run it with `python3 yt_video_dl.py <YouTube video url> -o /path/to/output` or if you prefer compiling the file using PyInstaller, you can then compile the file like this `pyinstaller yt_video_dl.py -F` the -F flag means that it creates a single executable file in the `dist` directory. You then run the compiled file like this `./yt_video_dl <YouTube video url> -o /path/to/output` if no path is specified it will create folder called 'downloadedVideos' and download it there.
